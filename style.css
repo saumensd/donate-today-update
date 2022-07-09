@@ -1,0 +1,178 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.top-banner {
+    background-image: url(images/donation3.jpg);
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1515px;
+    height: 500px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.banner-text {
+    padding-top: 100px;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    background-image: linear-gradient(red, rgb(202, 202, 118));
+    border-radius: 10px;
+}
+
+.donate-today {
+    text-align: center;
+}
+
+.amount {
+    display: flex;
+    margin-left: 550px;
+    padding: 10px;
+    padding-top: 15px;
+}
+
+.amount1 {
+    padding: 15px;
+    margin: 10px;
+}
+#amount200{
+    border-color: brown;
+}
+
+.other-amount {
+    text-align: center;
+    border: none;
+}
+
+.other-amount input {
+    border: none;
+    border-bottom: 2px solid red;
+    height: 80%;
+    width: 80%;
+}
+
+.other-amount :focus {
+    outline: none;
+}
+
+.other-amount :placeholder-shown {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 25px;
+    padding: 30px;
+}
+
+#roller {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.plan {
+    text-align: center;
+}
+
+.plan-types {
+    display: flex;
+}
+
+#plan-food {
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+}
+
+#plan-shelter {
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 10px;
+}
+
+#plan-education {
+    background-color: rgb(140, 186, 186);
+    padding: 10px;
+    margin: 10px;
+}
+
+.help-pic {
+    display: flex;
+    width: 25%;
+
+}
+
+.help-pic img {
+    width: 95%;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+#help-heading {
+    text-align: center;
+}
+
+.search-bar {
+    text-align: center;
+    padding: 50px;
+    background-color: beige;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
+.update {
+    text-align: center;
+}
+
+#join {
+    text-align: center;
+}
+
+.social-media {
+    display: inline;
+    margin-left: 650px;
+    padding-top: 20px;
+
+}
+
+
+.social-media img {
+    width: 3%;
+}
+
+#facebook {
+    margin-left: 10px;
+    padding: 10px;
+    background-color: rgb(152, 76, 199);
+
+}
+
+#insta {
+    margin-left: 10px;
+    padding: 10px;
+    background-color: rgb(111, 81, 130);
+}
+
+#in {
+    margin-left: 10px;
+    padding: 10px;
+    background-color: rgb(126, 105, 139);
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.span-color {
+    color: rgb(232, 189, 189);
+}
